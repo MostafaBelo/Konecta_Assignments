@@ -9,4 +9,7 @@ Assignments can be found under separate branches
   <li>
     <a href="https://github.com/MostafaBelo/Konecta_Assignments/tree/Assignment_2">Task 2</a>
   </li>
+  <li>
+    <a href="https://github.com/MostafaBelo/Konecta_Assignments/tree/Assignment_3">Task 3</a>
+  </li>
 </ul>
