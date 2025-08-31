@@ -1,0 +1,6 @@
+Dataset/train/*
+Dataset/valid/*
+Dataset/test/*
+
+Dataset/*.h5
+Dataset/sports original.csv
