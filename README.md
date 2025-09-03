@@ -18,6 +18,9 @@ Assignments can be found under separate branches
   <li>
     <a href="https://github.com/MostafaBelo/Konecta_Assignments/tree/Assignment_5">Task 5</a>
   </li>
+  <li>
+    <a href="https://github.com/MostafaBelo/Konecta_Assignments/tree/Assignment_6">Task 6</a>
+  </li>
 </ul>
 
 Submission Link: https://docs.google.com/forms/d/e/1FAIpQLSd-vRfQR6gWQUDrpCAUOxesXjNk5G7dMF7EsDKRsDLzHrFN7Q/viewform
