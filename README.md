@@ -1,29 +1,59 @@
-# Konecta_Assignments
+Hello ya shabab, here's the task for this week
 
-Assignments can be found under separate branches
+Objective
 
-<ul>
-  <li>
-    <a href="https://github.com/MostafaBelo/Konecta_Assignments/tree/Assignment_1">Task 1</a>
-  </li>
-  <li>
-    <a href="https://github.com/MostafaBelo/Konecta_Assignments/tree/Assignment_2">Task 2</a>
-  </li>
-  <li>
-    <a href="https://github.com/MostafaBelo/Konecta_Assignments/tree/Assignment_3">Task 3</a>
-  </li>
-  <li>
-    <a href="https://github.com/MostafaBelo/Konecta_Assignments/tree/Assignment_4">Task 4</a>
-  </li>
-  <li>
-    <a href="https://github.com/MostafaBelo/Konecta_Assignments/tree/Assignment_5">Task 5</a>
-  </li>
-  <li>
-    <a href="https://github.com/MostafaBelo/Konecta_Assignments/tree/Assignment_6">Task 6</a>
-  </li>
-</ul>
+Build a chatbot with conversational memory that can answer user queries based on three distinct product manuals (PDFs). The chatbot should be able to index the documents, store them in a suitable vector store along with metadata, and retrieve relevant information to answer questions.
 
-Submission Link: https://docs.google.com/forms/d/e/1FAIpQLSd-vRfQR6gWQUDrpCAUOxesXjNk5G7dMF7EsDKRsDLzHrFN7Q/viewform
-<br>
-<br>
-Feedback Link: https://docs.google.com/forms/d/e/1FAIpQLSdLOrN_XWdI8UxZh3_vwTMD3-qFLIVqs5bId_JQXtzBfJQgEA/viewform
+Data Requirements
+
+- Collect four product manuals in PDF format from the following source: https://www.manualslib.com/
+- Each manual should be at least 10 pages long.
+- Metadata to extract per chunk should include at minimum:
+- Document name
+- Page number
+- Section heading (if available)
+
+Task Requirements
+
+- Document Ingestion and Preprocessing
+- Load the four PDFs.
+- Split the documents into chunks.
+- Attach metadata to each chunk.
+
+Indexing
+
+- Store the documents in a suitable vector store along with embeddings.
+- Justify the choice of embedding model and vector store.
+
+Chatbot with Memory
+
+- Implement conversational memory so that the chatbot can handle follow-up questions.
+- Ensure the chatbot can combine user history with retrieved context when generating answers.
+
+Retrieval-Augmented Generation (RAG) Pipeline
+
+- Retrieve relevant chunks from the manuals based on user queries.
+- Ground responses in the documents and cite the source (document and page number).
+- Ensure the chatbot can handle multi-turn interactions.
+
+Evaluation
+
+- Provide at least five example Q&A interactions with the chatbot, covering:
+- Direct factual questions.
+- Follow-up questions that depend on memory.
+- Questions requiring retrieval from different manuals.
+- An out-of-scope question where the chatbot should respond appropriately.
+
+Deliverables
+A single Jupyter Notebook containing:
+
+- All code.
+- Explanations in markdown cells.
+- Output cells showing chatbot interactions.
+- The notebook should run end-to-end without requiring external scripts.
+
+Bonus (Optional)
+
+- Implement metadata-based filtering (e.g., restrict retrieval to one manual or section).
+- Add summarization functionality.
+- Persist the vector store locally so it does not need to be rebuilt each run.
